@@ -22,5 +22,10 @@ namespace Strategy
         {
             Console.WriteLine("show duck");
         }
+
+        public void Fly()
+        {
+            Console.WriteLine("I am flying");
+        }
     }
 }
