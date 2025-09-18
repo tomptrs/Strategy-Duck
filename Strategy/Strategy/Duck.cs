@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Strategy
 {
-    internal class Duck
+    internal abstract class Duck
     {
         public void quack()
         {
@@ -23,7 +23,7 @@ namespace Strategy
             Console.WriteLine("show duck");
         }
 
-        public void Fly()
+        public virtual void Fly()
         {
             Console.WriteLine("I am flying");
         }

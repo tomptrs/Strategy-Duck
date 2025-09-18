@@ -8,5 +8,10 @@ namespace Strategy
 {
     internal class RubberDuck:Duck
     {
+
+        public override void Fly()
+        {
+            Console.WriteLine("I cannot fly");
+        }
     }
 }
