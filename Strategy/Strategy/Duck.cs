@@ -8,7 +8,7 @@ namespace Strategy
 {
     internal abstract class Duck
     {
-        public void quack()
+        public virtual void quack()
         {
             Console.WriteLine("quack");
         }
